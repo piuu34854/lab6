@@ -1,0 +1,43 @@
+.title {
+    text-align: center;
+    margin-bottom: 20px; /* Відступ між надписом і рамкою */
+  }
+  
+  .map-frame {
+    display: block;
+    margin: 0 auto 20px; /* Відступ між рамками і між рамкою і надписом */
+    width: 100%; /* Рамка розтягнеться на всю ширину контейнера */
+    border: 2px solid #000; /* Рамка для кожної рамки */
+    padding: 20px; /* Внутрішній відступ в кожній рамці */
+  }
+  
+  .map-frame iframe {
+    width: 100%; /* Карта розтягнеться на всю ширину рамки */
+  }
+  
+  .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Вирівнювання вмісту по центру вертикально */
+    margin: 10px 0; /* Відступ від надпису */
+  }
+  
+  iframe {
+    max-width: 100%; /* Максимальна ширина відео, щоб воно не виходило за межі контейнера */
+    max-height: 100%; /* Максимальна висота відео, щоб воно не виходило за межі контейнера */
+  }
+
+  .audio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
